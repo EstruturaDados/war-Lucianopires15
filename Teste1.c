@@ -4,8 +4,8 @@
 
 // Definição da struct para representar um Território
 typedef struct {
-    char nome[50];             // Nome do Território
-    char cor_exercito[20];     // Cor do Exército dominante
+    char nome[30];             // Nome do Território
+    char cor_exercito[10];     // Cor do Exército dominante
     int num_tropas;            // Número de Tropas no território
 } Territorio;
 
@@ -88,4 +88,5 @@ int main() {
     exibir_mapa(mapa, NUM_TERRITORIOS);
 
     return 0;
+
 }
